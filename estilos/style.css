@@ -81,7 +81,7 @@ main{
   overflow: hidden;
   border-radius: 50%;
   border: 5px solid var(--fundo-card);
-  outline: 5px solid var(--destaque);
+  box-shadow: 0 0 0 5px var(--destaque); 
   display: block;
   margin: auto;
   margin-bottom: 15px;
