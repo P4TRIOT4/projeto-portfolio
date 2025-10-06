@@ -127,7 +127,7 @@ article{
 
 article h2{
   color: var(--destaque);
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 #skillcontanier{
@@ -164,6 +164,36 @@ article h2{
   height: 100%;
   background-color: var(--destaque-inverso);
   border-radius: 4px;
+}
+
+#formacao-contanier{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 8px;
+}
+
+#formacao-contanier .curso{
+  background-color: var(--fundo-principal);
+  border-radius: 8px;
+  border-left: 5px solid var(--destaque-inverso);
+  padding-left: 15px;
+  transition: border-width 0.5s, border-color 0.5s;
+}
+
+#formacao-contanier .curso:hover{
+  border-left: 15px solid var(--destaque);
+  cursor: pointer;
+}
+
+#formacao-contanier .periodo{
+  font-size: 0.8em;
+  font-weight: bold;
+  color: var(--texto);
+}
+
+#formacao-contanier .instituicao{
+  color: var(--destaque-inverso);
+  font-size: 1.1em;
 }
 
 
