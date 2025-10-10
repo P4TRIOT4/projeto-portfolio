@@ -263,8 +263,9 @@ footer a:hover{
   }
 
   #projeto-contanier .foto{
-    aspect-ratio: 1/1;
-    max-width: 20%;
-    max-height: 200px;
+  display: block;
+  max-width: 200px;
+  width: 100%;
+  height: auto;
   }
 }
