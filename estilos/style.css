@@ -209,6 +209,12 @@ article h2{
   font-size: 1.1em;
 }
 
+#formacao-contanier a{
+  color: inherit;
+  text-decoration: none;
+  outline: none;
+}
+
 #projeto-contanier{
   display: flex;
   flex-direction: column-reverse;
